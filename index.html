@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>train schedule</title>
+
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- External CSS link -->
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="jumbotron text-center bg-dark rounded-pill">
+        <h1 class="display-4">Train Schedules</h1>
+        <p class="lead">find a train to follow your dreams</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="schedule-display rounded">
+                    <p class="heading rounded-pill">Schedules</p>
+                    <table class="rounded bg-dark">
+                        <thead>
+                            <tr>
+                                <td>
+                                    <p>Train name</p>
+                                </td>
+                                <td>
+                                    <p>Destination</p>
+                                </td>
+                                <td>
+                                    <p>Frequency (min)</p>
+                                </td>
+                                <td>
+                                    <p>Next arrival</p>
+                                </td>
+                                <td>
+                                    <p>Minutes away</p>
+                                </td>
+                            </tr>
+                        </thead>
+                    </table>
+
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="form-display rounded">
+                    <p class="heading rounded-pill">Add a train</p>
+                    <form>
+                        <div class="form-group">
+                            <label class="labels" for="trainName">Train name</label>
+                            <input type="text" class="form-control" id="trainName">
+
+                            <label class="labels" for="destination">Destination</label>
+                            <input type="text" class="form-control" id="destination">
+
+                            <label class="labels" for="firstTrainTime">First train time</label>
+                            <input type="text" class="form-control" id="firstTrainTime"
+                                placeholder="HH:mm (military time)">
+
+                            <label class="labels" for="frequency">Frequency (min)</label>
+                            <input type="text" class="form-control" id="frequency">
+
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+<br><br>
+    <!-- jQuery link -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- JS file link -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+<footer>
+<p>copyright ©</p>
+</footer>
+
+</html>

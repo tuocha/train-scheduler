@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+body {
+    background-image: url("../images/qbkls.png");
+    /* background-image: url("../images/connectwork.png"); */
+    background-repeat: repeat;
+}
+
+.jumbotron {
+    margin-left: 10%;
+    color: white;
+    width: 80%;
+}
+
+.schedule-display {
+    background-color: lightsteelblue;
+    border: 2px solid lightskyblue;
+    height: 400px;
+    width: 100%;
+    margin-top: -2%;
+}
+
+.form-display {
+    background-color: lightsteelblue;
+    border: 2px solid lightskyblue;
+    height: 100%;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.heading {
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+    width: 100%;
+    background-color: darkcyan;
+}
+
+table {
+    color: white;
+    margin-top: -1%; 
+    width: 100%;
+}
+
+td {
+    width: 20%;
+}
+
+form {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.form-group, .form-control {
+    text-align: left;
+}
+
+.btn {
+    float: left;
+}
+
+footer {
+    background-color: darkcyan;
+    color: white;
+}
